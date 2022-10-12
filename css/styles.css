@@ -1,0 +1,114 @@
+:root {
+  --primary-text-color: rgba(0, 0, 0, 0.8);
+  --title-text-color: #000000;
+  --accent-color: #18a0fb;
+  --primary-bg-color: #ffffff;
+}
+
+/* BODY */
+.page {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+  font-family: Montserrat, sans-serif;
+  letter-spacing: -0.015em;
+  font-size: 18px;
+  line-height: 1.67;
+}
+
+/* LOGO */
+.logo {
+  color: var(--title-text-color);
+  font-family: Comfortaa, cursive;
+  font-size: 28px;
+  line-height: 1.143;
+}
+
+.logo:hover {
+  color: var(--accent-color);
+}
+
+/* LIST*/
+.list {
+  list-style: none;
+}
+
+/*SITE NAV*/
+.site-nav .link {
+  color: var(--accent-color);
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.2;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--title-text-color);
+}
+
+.site-nav .link.current {
+  color: var(--title-text-color);
+}
+
+
+/* Hero */
+.hero-title {
+  color: var(--title-text-color);
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 1.43;
+  text-align: center;
+}
+
+/* Section */
+
+.section-title {
+  color: var(--title-text-color);
+
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.section-description {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.39;
+}
+
+/* Features */
+.feature-list .title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+}
+.feature-list .link {
+  color: var(--accent-color);
+}
+
+/* Work */
+.work-list .title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+/* Button */
+
+.button {
+  color: var(--title-text-color);
+  background-color: var(--primary-bg-color);
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.2;
+}
+
+.button.primary {
+  background-color: var(--accent-color);
+  color: var(--primary-bg-color);
+}
+.button.secondary {
+  background-color: var(--primary-bg-color);
+  color: var(--accent-color);
+}
